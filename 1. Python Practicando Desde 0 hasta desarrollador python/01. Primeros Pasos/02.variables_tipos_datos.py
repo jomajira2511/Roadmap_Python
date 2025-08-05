@@ -1,6 +1,6 @@
 """
 ===================================================
-Script: variables_tipos_datos.py
+Script: 02.Variables_tipos_datos.py
 Proyecto: Roadmap Python
 Autor: Jhon Jiménez
 GitHub: https://github.com/jomajira2511
