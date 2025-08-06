@@ -1,6 +1,6 @@
 """
 ===================================================
-Script: 01.Cadenar_texto.py
+Script: 01.Cadenas_texto.py
 Proyecto: Roadmap Python
 Autor: Jhon Jiménez
 GitHub: https://github.com/jomajira2511
@@ -23,6 +23,4 @@ Apellido = "Jimenez"
 print ("Nombre :",Nombre)
 print ("Apellido :",Nombre)
 print ("Usando \"+\" como conector de cadenas tenemos :", Nombre + Apellido)  ##usando + se pueden concatenar cadenas 
-print("Usando \"*\"  permite multiplicar las cadenas  :", Nombre * 3)
-
-
+print("Usando \"*\"  permite multiplicar las cadenas  :", Nombre * 3) ## usando * se puede "multiplicar" las cadenas 
