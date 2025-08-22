@@ -1,0 +1,92 @@
+/* 
+===================================================
+Archivo: 02.Style.css
+Proyecto: Roadmap Python
+Autor: Jhon Jiménez
+GitHub: https://github.com/jomajira2511
+Correo: jomajira2511@gmail.com
+Fecha de creación: 2025-08-21
+Descripción:
+    Este archivo define los estilos de una página web
+    estructurada con header, nav, main, aside y footer.
+    Se aplican principios básicos de maquetación con
+    floats, un reset inicial, y estilos para mejorar
+    la presentación visual de cada bloque.
+===================================================
+*/
+
+/* Reset básico: elimina márgenes y paddings por defecto
+   y asegura que el box-sizing sea consistente en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Encabezado: ocupa todo el ancho superior, fondo gris y texto centrado */
+header {
+    background: #777;   /* gris */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+/* Barra de navegación: alineada a la izquierda, ocupa 20% del ancho */
+nav {
+    float: left;
+    width: 20%;
+    background: #ccc;
+    padding: 15px;
+    min-height: 300px; /* asegura que se vea como columna */
+}
+
+/* Estilos de los enlaces dentro de la barra de navegación */
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Contenido principal: ocupa el 60% al centro */
+main {
+    float: left;
+    width: 60%;
+    background: #eee;
+    padding: 20px;
+    min-height: 300px;
+}
+
+/* Secciones dentro del main */
+section {
+    margin-top: 15px;
+}
+
+/* Artículos dentro del main: con fondo gris claro y bordes redondeados */
+article {
+    background: #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* Aside: columna derecha con el 20% del ancho */
+aside {
+    float: left;
+    width: 20%;
+    background: #ccc;
+    padding: 20px;
+    min-height: 300px;
+}
+
+/* Footer: ocupa todo el ancho inferior, fondo gris y texto centrado */
+footer {
+    clear: both;
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
