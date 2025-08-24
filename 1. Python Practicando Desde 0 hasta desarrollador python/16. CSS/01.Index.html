@@ -1,17 +1,65 @@
+<!--
+===================================================
+Archivo: 01.index.html
+Proyecto: Roadmap Python
+Autor: Jhon Jiménez
+GitHub: https://github.com/jomajira2511
+Correo: jomajira2511@gmail.com
+Fecha de creación: 2025-08-24
+Descripción:
+    Documento base en HTML utilizado para probar 
+    diferentes tipos de selectores en CSS:
+    - Selectores de etiqueta
+    - Selectores de clase e ID
+    - Selectores de descendencia y jerarquía
+    - Selectores de hermanos (adyacentes y generales)
+    - Selectores aplicados en enlaces <a>
+===================================================
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="02.Style.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Selectores</title>
 </head>
 <body>
-    <h1> Titulo </h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum laborum quam aliquam, 
-        repudiandae commodi illum. In perspiciatis, animi a blanditiis distinctio facere quia veritatis sunt odio architecto, 
-        aliquam dolorum rem.
+    <!-- Ejemplo: selector de hijo directo -->
+    <h1>Este es un titulo <a href="#">Link</a></h1>
+    
+    <!-- Ejemplo: selector descendente -->
+    <h1><p><a href="#">Link</a></p></h1>
+
+    <!-- Ejemplo: selector hermano general y adyacente -->
+    <h2>Es hermano</h2>
+    <h3>No es adyacente</h3>
+    <h3>Es adyacente</h3>
+
+    <!-- Encabezados adicionales para probar selectores múltiples -->
+    <h4>Este es un h4</h4>
+    <h5>Este es un h5</h5>
+    <h6>Este es un h6</h6>
+
+    <!-- Ejemplo: uso de clase -->
+    <p class="parrafo">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit...
+        <a href="#">consectetur adipisicing elit. Velit fugit nulla repellendus...</a>
     </p>
+
+    <!-- Ejemplo: otra clase -->
+    <p class="parrafo2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit...
+        <a href="#">Voluptatibus porro at culpa rerum alias...</a>
+    </p>
+
+    <!-- Ejemplo: selector por ID -->
+    <h3 id="identificacion">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <a href="#"> Ut, iure excepturi assumenda iste illum...</a>
+    </h3>
+
+    <!-- Ejemplo: un enlace con clase -->
+    <a href="#" class="parrafo">Link</a>
 </body>
 </html>

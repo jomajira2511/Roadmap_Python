@@ -1,3 +1,139 @@
-*{  /* Aplica efectos a toda la pagina con el selector *  */
+/* 
+===================================================
+Archivo: 02.estilos.css
+Proyecto: Roadmap Python
+Autor: Jhon Jiménez
+GitHub: https://github.com/jomajira2511
+Correo: jomajira2511@gmail.com
+Fecha de creación: 2025-08-24
+Descripción:
+    Este archivo contiene ejemplos prácticos de
+    selectores CSS, aplicados a diferentes tipos
+    de elementos:
+    - Selector universal (*)
+    - Selectores por etiqueta (h1, p, a, etc.)
+    - Selectores múltiples (h1,h2,h3...)
+    - Selectores por clase (.clase)
+    - Selectores por ID (#id)
+    - Selectores de descendencia (padre > hijo)
+    - Selectores de relación (h2 + h3)
+    - Selectores de atributos ([class], [attr="valor"])
+    El código está estructurado con ejemplos comentados
+    para activar/desactivar según la necesidad.
+===================================================
+*/
+
+/* Ejemplo de selector universal: afecta a todo el documento */
+/*
+*{
     font-size: 50px;
+    color: hotpink;
+}
+*/
+
+/* Selectores por etiqueta */
+/*
+h1 {
+    background-color: indigo;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+p {
+    text-align: center;
+}
+*/
+
+/* Selectores múltiples (afecta a varios elementos) */
+/*
+h1, h2, h3, h4, h5, h6, p, a {
+    color: red;
+    background-color: black;
+}
+
+h1 {
+    font-size: 72px;
+}
+*/
+
+/* Selector por etiqueta específica */
+/*
+a {
+    background-color: green;
+}
+*/
+
+/* Selectores por clase */
+p.parrafo {
+    color: white;
+    font-size: 48px;
+    background-color: black;
+}
+
+.parrafo2 {
+    color: white;
+    font-size: 24px;
+    background-color: black;
+}
+
+a.parrafo {
+    color: white;
+    font-size: 48px;
+    background-color: black;
+}
+
+/* Selector por ID */
+#identificacion {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
+}
+
+/* Selectores de descendencia (padre > hijo) */
+/*
+h1 > a {
+    color: coral;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+}
+
+p > a {
+    color: firebrick;
+    font-size: 72px;
+}
+*/
+
+/* Selector de relación adyacente */
+/*
+h2 + h3 {
+    color: fuchsia;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*/
+
+/* Selector por atributo (todos los elementos con class) */
+/*
+[class] {
+    color: red;
+    font-size: 48px;
+    background-color: rosybrown;
+}
+*/
+
+/* Selector por atributo con valor específico */
+/*
+[class="parrafo"] {
+    color: seagreen;
+    font-weight: bold;
+}
+*/
+
+/* Estilo activo actual */
+.parrafo {
+    font-size: 10.8px;
 }
