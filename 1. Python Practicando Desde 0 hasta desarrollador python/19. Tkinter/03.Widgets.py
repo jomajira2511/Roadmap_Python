@@ -24,5 +24,8 @@ boton = tk.Button(
 )
 boton.pack()
 
+#Pendiente agregar correciones
+boton.tk_setPalette()
+
 
 ventana.mainloop()
