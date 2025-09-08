@@ -1,9 +1,0 @@
-1. Python
-2. Java
-3. C
-4. PHP
-5. Go
-6. C++
-7. Rust
-8. Ruby
-9. Pascal
